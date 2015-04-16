@@ -5,8 +5,10 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 */
 
 pre code {
-  display: block; padding: 0.5em;
-  background: #002b36; color: #92a0a0;
+    /*display: block;*/
+    /*padding: 0.5em;*/
+    background: #002b36;
+    color: #92a0a0;
 }
 
 pre .comment,

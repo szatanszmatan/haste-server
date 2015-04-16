@@ -46,7 +46,7 @@ textarea {
 }
 
 #box code {
-	padding: 0px;
+	padding: 0px 50px 0px 0px;
 	background: transparent !important; /* don't hide hastebox */
 }
 
@@ -86,7 +86,7 @@ textarea {
 	background: url(function-icons.png);
 	width: 32px;
 	height: 37px;
-	display: inline-block;
+	display: block;
 	position: relative;
 }
 
