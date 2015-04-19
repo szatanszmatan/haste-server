@@ -42,7 +42,6 @@ textarea {
 	border: 0px;
 	outline: none;
 	font-size: 13px;
-	padding-right: 360px;
 }
 
 #box code {
@@ -54,9 +53,9 @@ textarea {
 
 #key {
 	position: fixed;
-	top: 0px;
+	top: 20px;
 	right: 0px;
-	z-index: +1000; /* watch out */
+	z-index: 1;
 }
 
 #box1 {
@@ -112,11 +111,15 @@ textarea {
 }
 
 #box3, #messages li {
-	background: #173e48;
+	background: #08323c;
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 14px;
 	padding: 10px 15px;
+    position: absolute;
+    top: 20px;
+    right: 42px;
+    width: 100px;
 }
 
 #box3 .label, #messages li {
