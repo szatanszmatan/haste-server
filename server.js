@@ -113,6 +113,12 @@ connect.createServer(
     app.post('/documents', function(request, response, next) {
       return documentHandler.handlePost(request, response);
     });
+
+    // get latest used keys
+    app.get('/latest', function(request, response) {
+      return documentHandler.handleListing(request, response);
+    });
+
     // get documents
     app.get('/documents/:id', function(request, response, next) {
       var skipExpire = !!config.documents[request.params.id];
